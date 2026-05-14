@@ -93,6 +93,12 @@ class CreateFormView extends GetView<CreateFormController> {
                     controller.registerUser();
                 }, child: Text( 'Register')
               ),
+                           ElevatedButton(
+                  onPressed: () {
+                    // controller.registerUser();
+                }, child: Text( 'Update')
+              ),
+
 
               
               ],

